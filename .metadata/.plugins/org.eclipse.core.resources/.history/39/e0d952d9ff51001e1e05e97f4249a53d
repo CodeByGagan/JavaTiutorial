@@ -1,0 +1,76 @@
+package practice.set;
+import java.util.List;
+
+public class Learner {
+    private int id;
+    private String name;
+    private List<String> phoneNumbers;
+    private String batchCode;
+    private Trainer trainer;
+
+    
+    public Learner() {
+		super();
+	}
+
+	public Learner(int id, String name, List<String> phoneNumbers, String batchCode, Trainer trainer) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.phoneNumbers = phoneNumbers;
+		this.batchCode = batchCode;
+		this.trainer = trainer;
+	}
+	
+
+	// Getter and Setter methods for id, name, phoneNumbers, and batchCode
+    public void setTrainer(Trainer trainer) {
+        this.trainer = trainer;
+    }
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public List<String> getPhoneNumbers() {
+		return phoneNumbers;
+	}
+
+	public void setPhoneNumbers(List<String> phoneNumbers) {
+		this.phoneNumbers = phoneNumbers;
+	}
+
+	public Trainer getTrainer() {
+		return trainer;
+	}
+
+	public String getBatchCode() {
+		return batchCode;
+	}
+
+	public void setBatchCode(String batchCode) {
+		this.batchCode = batchCode;
+	}
+	
+
+	@Override
+	public String toString() {
+		return "Learner [id=" + id + ", name=" + name + ", phoneNumbers=" + phoneNumbers + ", batchCode=" + batchCode
+				+ ", trainer=" + trainer + "]";
+	}
+
+
+}
+

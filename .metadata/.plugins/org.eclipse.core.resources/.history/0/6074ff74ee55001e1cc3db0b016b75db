@@ -1,0 +1,4 @@
+spring.datasourse.url = jdbc:mysql://localhost:3306;
+spring.datasourse.username = root;
+spring.datasourse.password = @12345Gagan;
+spring.datasourse.

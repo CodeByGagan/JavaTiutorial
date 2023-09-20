@@ -1,0 +1,21 @@
+package AnnotationBased.Configuration;
+
+//aggregation is a has a ralationship
+
+public class Tyre {
+	String name;
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	@Override
+	public String toString() {
+		return "Tyre [name=" + name + "]";
+	}
+	
+}

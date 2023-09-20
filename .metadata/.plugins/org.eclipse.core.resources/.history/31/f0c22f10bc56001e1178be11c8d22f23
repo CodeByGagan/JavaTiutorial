@@ -1,0 +1,31 @@
+package com.example.demo;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.SpringApplication; 
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ApplicationContext;
+import org.springframework.stereotype.Component;
+
+@SpringBootApplication // it is the starting point of our app
+@Component
+public class SpringBootDemo1Application {
+
+	public static void main(String[] args) {
+		ApplicationContext context = SpringApplication.run(SpringBootDemo1Application.class, args);
+//		EmployeeRepo empRepo1 = context.getBean(EmployeeRepo.class);
+//		
+//		Employee employee = new Employee();
+//		employee.setEmpName("Rohan");
+//		employee.setEmpSalary(50000);
+//		
+//		empRepo1.save(employee);
+//		System.out.println(employee);
+		
+	}
+
+	@Autowired
+	EmployeeRepo empRepo2;
+	
+	public void run(String... args)
+	
+}

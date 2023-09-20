@@ -1,0 +1,9 @@
+package amber.noida.springDay1;
+
+public class Sample {
+
+	String name;
+
+	
+
+}

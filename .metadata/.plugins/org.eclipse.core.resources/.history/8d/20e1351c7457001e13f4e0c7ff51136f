@@ -1,0 +1,79 @@
+package com.example.demo;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.SpringApplication; 
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ApplicationContext;
+import org.springframework.stereotype.Component;
+
+@SpringBootApplication // it is the starting point of our app
+@Component
+public class SpringBootDemo1Application {
+
+	public static void main(String[] args) {
+		ApplicationContext context = SpringApplication.run(SpringBootDemo1Application.class);
+		EmployeeRepo empRepo1 = context.getBean(EmployeeRepo.class);
+		
+		Employee employee = new Employee();
+		employee.setEmpName("Rohan");
+		employee.setEmpSalary(50000);
+		
+		Employee employee1 = new Employee();
+		employee1.setEmpName("Sohan");
+		employee1.setEmpSalary(50000);
+		
+		Employee employee2 = new Employee();
+		employee2.setEmpName("Mohan");
+		employee2.setEmpSalary(50000);
+		
+		ArrayList<Employee> obj1 = new ArrayList<Employee>();
+		obj1.add(employee2);
+		obj1.add(employee1);
+		empRepo1.saveAll(obj1);
+		
+//		empRepo1.save(employee);
+		System.out.println("Data inserted Successfilly!");
+		
+//		Update Employee records
+		Optional <Employee> empObj = empRepo1.findById(2);
+		Employee e = empObj.get();
+		
+		e.setEmpName("Madhuparna Maam");
+		e.setEmpSalary(1000000);
+		empRepo1.save(e);
+		System.out.println("Data Updated Successfilly!");
+		
+//		Fetching all the employee detils
+		List<Employee> empList = empRepo1.findAll();
+		for(Employee e1:empList) {
+			System.out.println(e1);
+			
+//		Deleting the record
+		empRepo1.deleteById(3);
+		System.out.println("Employee's records deleted Successfilly!");
+		
+//		Delete all the records 
+		empRepo1.deleteAll();
+		System.out.println("Employee's table all records deleted Successfilly!");
+		
+		}
+		
+	}
+
+//	@Autowired
+//	EmployeeRepo empRepo2;
+//	
+//	public void run(String... args) throws Exception{
+//		
+//		Employee emp = new Employee();
+//		emp.setEmpName("Sohan");
+//		emp.setEmpSalary(57000);
+//		
+//		empRepo2.save(emp);
+//		System.out.println(emp);
+		
+	}

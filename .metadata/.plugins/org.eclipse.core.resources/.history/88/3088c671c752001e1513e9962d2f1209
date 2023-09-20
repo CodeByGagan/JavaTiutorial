@@ -1,0 +1,22 @@
+package AnnotationBased.Configuration;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+//        Vehicle vehicle = new Car();
+//        vehicle.drive();
+//        
+//        vehicle = new Bike();
+//        vehicle.drive();
+    	
+    	ApplicationContext context = new ClassPathXmlApplicationContext("Spring.xml");
+    	Vehicle vehicle = (Bike)context.getBean("bike");
+    	
+    	vehicle.drive();
+    	
+    }
+}

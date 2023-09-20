@@ -1,0 +1,6 @@
+package amber.noida.springDay1;
+
+public class Samole {
+
+	String msg;
+}

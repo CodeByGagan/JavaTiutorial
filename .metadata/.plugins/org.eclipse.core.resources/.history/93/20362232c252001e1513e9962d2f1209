@@ -1,0 +1,13 @@
+package AnnotationBased.Configuration;
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+        Vehicle vehicle = new Car();
+        vehicle.drive();
+        
+        vehicle = new Bike();
+        Vehicle.drive();
+    }
+}

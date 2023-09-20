@@ -1,0 +1,9 @@
+package AnnotationBased.Configuration;
+
+public class Bike implements Vehicle{
+
+	public void drive() {
+		System.out.println("Riding...");
+	}
+	
+}

@@ -1,0 +1,6 @@
+package springMVC.controller;
+
+@Controller
+public class WelcomeController {
+
+}

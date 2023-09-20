@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libraryInfos>
+    <libraryInfo home="C:\Program Files\NVIDIA Corporation\Installer2\visual_profiler_9.0.{29DE3916-AC61-42F6-8053-CA7B56972C1C}" version="1.8.0_77">
+        <bootpath>
+            <entry path="C:\Program Files\NVIDIA Corporation\Installer2\visual_profiler_9.0.{29DE3916-AC61-42F6-8053-CA7B56972C1C}\jre\lib\resources.jar"/>
+            <entry path="C:\Program Files\NVIDIA Corporation\Installer2\visual_profiler_9.0.{29DE3916-AC61-42F6-8053-CA7B56972C1C}\jre\lib\rt.jar"/>
+            <entry path="C:\Program Files\NVIDIA Corporation\Installer2\visual_profiler_9.0.{29DE3916-AC61-42F6-8053-CA7B56972C1C}\jre\lib\sunrsasign.jar"/>
+            <entry path="C:\Program Files\NVIDIA Corporation\Installer2\visual_profiler_9.0.{29DE3916-AC61-42F6-8053-CA7B56972C1C}\jre\lib\jsse.jar"/>
+            <entry path="C:\Program Files\NVIDIA Corporation\Installer2\visual_profiler_9.0.{29DE3916-AC61-42F6-8053-CA7B56972C1C}\jre\lib\jce.jar"/>
+            <entry path="C:\Program Files\NVIDIA Corporation\Installer2\visual_profiler_9.0.{29DE3916-AC61-42F6-8053-CA7B56972C1C}\jre\lib\charsets.jar"/>
+            <entry path="C:\Program Files\NVIDIA Corporation\Installer2\visual_profiler_9.0.{29DE3916-AC61-42F6-8053-CA7B56972C1C}\jre\lib\jfr.jar"/>
+            <entry path="C:\Program Files\NVIDIA Corporation\Installer2\visual_profiler_9.0.{29DE3916-AC61-42F6-8053-CA7B56972C1C}\jre\classes"/>
+        </bootpath>
+        <extensionDirs>
+            <entry path="C:\Program Files\NVIDIA Corporation\Installer2\visual_profiler_9.0.{29DE3916-AC61-42F6-8053-CA7B56972C1C}\jre\lib\ext"/>
+            <entry path="C:\WINDOWS\Sun\Java\lib\ext"/>
+        </extensionDirs>
+        <endorsedDirs>
+            <entry path="C:\Program Files\NVIDIA Corporation\Installer2\visual_profiler_9.0.{29DE3916-AC61-42F6-8053-CA7B56972C1C}\jre\lib\endorsed"/>
+        </endorsedDirs>
+    </libraryInfo>
+    <libraryInfo home="C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0" version="1.8.0_77">
+        <bootpath>
+            <entry path="C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\jre\lib\resources.jar"/>
+            <entry path="C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\jre\lib\rt.jar"/>
+            <entry path="C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\jre\lib\sunrsasign.jar"/>
+            <entry path="C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\jre\lib\jsse.jar"/>
+            <entry path="C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\jre\lib\jce.jar"/>
+            <entry path="C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\jre\lib\charsets.jar"/>
+            <entry path="C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\jre\lib\jfr.jar"/>
+            <entry path="C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\jre\classes"/>
+        </bootpath>
+        <extensionDirs>
+            <entry path="C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\jre\lib\ext"/>
+            <entry path="C:\WINDOWS\Sun\Java\lib\ext"/>
+        </extensionDirs>
+        <endorsedDirs>
+            <entry path="C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\jre\lib\endorsed"/>
+        </endorsedDirs>
+    </libraryInfo>
+    <libraryInfo home="C:\Program Files\Eclipse Adoptium\jdk-17.0.1.12-hotspot" version="17.0.1"/>
+    <libraryInfo home="C:\Users\Gaurav\Downloads\sts-4.19.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502" version="17.0.7"/>
+    <libraryInfo home="C:\Program Files\Java\jdk-20" version="20.0.2"/>
+    <libraryInfo home="C:\Users\Gaurav\Downloads\sts-4.19.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502\jre" version="17.0.7"/>
+</libraryInfos>

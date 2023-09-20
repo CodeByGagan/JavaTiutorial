@@ -1,0 +1,38 @@
+package practice.set;
+import java.util.List;
+
+public class Trainer {
+    private int id;
+    private String name;
+    private List<String> subjectsTaught;
+    
+    
+    
+    
+    
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public List<String> getSubjectsTaught() {
+		return subjectsTaught;
+	}
+	public void setSubjectsTaught(List<String> subjectsTaught) {
+		this.subjectsTaught = subjectsTaught;
+	}
+	@Override
+	public String toString() {
+		return "Trainer [id=" + id + ", name=" + name + ", subjectsTaught=" + subjectsTaught + "]";
+	}
+
+    
+    
+}

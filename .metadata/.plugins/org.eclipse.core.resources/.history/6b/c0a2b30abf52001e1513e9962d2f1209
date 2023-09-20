@@ -1,0 +1,9 @@
+package AnnotationBased.Configuration;
+
+public class Bike {
+
+	public void ride() {
+		System.out.println("Riding...");
+	}
+	
+}
